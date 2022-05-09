@@ -1,0 +1,18 @@
+#container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 10px;
+}
+img:hover {
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+  background-color: brown;
+  border: 1px solid gray;
+  box-shadow: 10px 10px 8px 10px #888888;
+}
+
+#pricee {
+  color: red;
+}
